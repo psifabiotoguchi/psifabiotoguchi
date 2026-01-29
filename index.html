@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>[Seu Nome] • Psicoterapia Online</title>
+  <meta name="description" content="Psicoterapia online. Agendamento rápido. Atendimento a pais, mães e cuidadores." />
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#101826; --text:#e9eef6; --muted:#a8b3c7; --border:#22314a;
+      --radius:18px; --max:760px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 50% -10%, #1a2a44 0%, var(--bg) 60%);
+      color:var(--text); line-height:1.55;
+    }
+    a{color:inherit; text-decoration:none}
+    .wrap{min-height:100vh; display:flex; justify-content:center; padding:22px}
+    .card{
+      width:100%; max-width:var(--max);
+      background: rgba(16,24,38,.92);
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.35);
+      backdrop-filter: blur(8px);
+    }
+    header{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
+    .brand{display:flex; align-items:center; gap:12px}
+    .avatar{
+      width:44px; height:44px; border-radius:14px;
+      background:linear-gradient(135deg,#2c7cff,#8a5cff);
+      display:flex; align-items:center; justify-content:center; font-weight:800;
+      border:1px solid rgba(255,255,255,.18);
+    }
+    .title{margin:0; font-weight:800; font-size:16px}
+    .subtitle{margin:2px 0 0; color:var(--muted); font-size:13px}
+    nav{display:flex; gap:10px; flex-wrap:wrap}
+    nav a{
+      padding:8px 10px; border-radius:999px;
+      background: rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.08);
+      font-size:13px; color:var(--text);
+    }
+    nav a:hover{border-color:rgba(255,255,255,.18)}
+    .section{
+      margin-top:14px;
+      padding:14px;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:16px;
+      background: rgba(255,255,255,.03);
+    }
+    h2{margin:0 0 8px; font-size:14px}
+    p{margin:0 0 10px; color:var(--text); opacity:.95}
+    .muted{color:var(--muted); font-size:13px}
+    .btn{
+      display:inline-block;
+      margin-top:8px;
+      padding:12px 14px;
+      border-radius:14px;
+      background:#2c7cff;
+      color:#fff;
+      font-weight:800;
+    }
+    .btn:hover{filter:brightness(1.03)}
+    .contacts{display:grid; gap:8px}
+    .row{display:flex; gap:8px; flex-wrap:wrap; color:var(--muted); font-size:13px}
+    footer{margin-top:14px; display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; color:var(--muted); font-size:12px}
+    .divider{margin-top:14px; border-top:1px solid rgba(255,255,255,.08)}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <main class="card">
+      <header>
+        <div class="brand">
+          <div class="avatar">NC</div>
+          <div>
+            <p class="title">[Seu Nome]</p>
+            <p class="subtitle">Psicóloga(o) • Atendimento online</p>
+          </div>
+        </div>
+
+        <nav aria-label="Navegação">
+          <a href="#sobre">Sobre</a>
+          <a href="#crp">CRP</a>
+          <a href="#agenda">Agenda</a>
+          <a href="#contatos">Contatos</a>
+          <a href="#mensagem">Mensagem</a>
+        </nav>
+      </header>
+
+      <section id="sobre" class="section">
+        <h2>Sobre</h2>
+        <p>
+          Atendo principalmente pais, mães e cuidadores — com foco em saúde mental do adulto,
+          cansaço parental, ansiedade e processos de reparação na relação.
+        </p>
+        <p class="muted">
+          Objetivo: ajudar você a se cuidar melhor para cuidar melhor — sem perfeccionismo, com estratégias práticas e acolhimento.
+        </p>
+      </section>
+
+      <section id="crp" class="section">
+        <h2>CRP</h2>
+        <p class="muted">CRP: [UF/Nº] • [Seu nome completo, se quiser]</p>
+      </section>
+
+      <section id="agenda" class="section">
+        <h2>Agenda</h2>
+        <p class="muted">Agendamento rápido por link (sem necessidade de cadastro do cliente).</p>
+        <a class="btn" href="[COLE AQUI O LINK DO CALENDLY]" target="_blank" rel="noopener">Agendar sessão</a>
+      </section>
+
+      <section id="contatos" class="section">
+        <h2>Contatos</h2>
+        <div class="contacts">
+          <div class="row"><strong style="color:var(--text)">WhatsApp (logística):</strong> <span>[+351 …]</span></div>
+          <div class="row"><strong style="color:var(--text)">E-mail:</strong> <span>[seu@email]</span></div>
+          <div class="row"><strong style="color:var(--text)">Horário de resposta:</strong> <span>[dias úteis • xx–yy]</span></div>
+        </div>
+        <p class="muted" style="margin-top:10px">
+          Observação: mensagens são para logística (agenda/pagamento/link). Demandas clínicas são tratadas em sessão.
+        </p>
+      </section>
+
+      <section id="mensagem" class="section">
+        <h2>Mensagem terapêutica</h2>
+        <p>
+          Cuidar de si não é egoísmo — é base. Quando você regula o seu corpo e a sua mente,
+          você amplia sua capacidade de presença, paciência e reparação.
+        </p>
+        <p class="muted">
+          Pequenos passos consistentes vencem soluções perfeitas que nunca acontecem.
+        </p>
+      </section>
+
+      <div class="divider"></div>
+      <footer>
+        <span>© <span id="y"></span> [Seu Nome]</span>
+        <span class="muted">Site simples para link da bio</span>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
